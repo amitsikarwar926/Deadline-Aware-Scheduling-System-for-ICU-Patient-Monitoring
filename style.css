@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+header {
+    background-color: #1e293b;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #38bdf8;
+    margin-top: 0;
+}
+
+.status {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.ok {
+    color: #22c55e;
+}
+
+.miss {
+    color: #ef4444;
+}
+
+footer {
+    background-color: #1e293b;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
